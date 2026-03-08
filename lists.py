@@ -6,5 +6,3 @@ todo3 = input(user_input)
 todos = [todo1, todo2, todo3]
 
 print("Your to-do list:", todos)
-
-
