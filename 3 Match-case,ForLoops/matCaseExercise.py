@@ -1,9 +1,6 @@
-country = "Italy"
-
 
 while True:
-    action = input("enter the country name: ")
-    
+    action = input("enter the country name: ") 
     match action:
         case "USA":
             print("Hello")  
