@@ -14,3 +14,18 @@ while True:
         
         
         
+
+fruits = []
+
+while True:
+    action = input("what would you like to do? Add or show?")
+    
+    match action:
+        case "add":
+            fruit = input("enter a fruit: ")
+            fruits.append(fruit)
+        case "show":
+            print(fruits)
+        case "quit":
+            break
+        
