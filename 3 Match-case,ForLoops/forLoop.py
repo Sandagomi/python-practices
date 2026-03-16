@@ -2,7 +2,7 @@ todos = []
 
 while True:
     
-    user_action = input("Enter a to do: ")
+    user_action = input("Enter the user action (add, show, quit): ")
     
     match user_action:
         case "add":
