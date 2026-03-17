@@ -15,3 +15,5 @@ while True:
                 print(item)
         case "quit":
             break
+        case _:
+            print("entered command is wrong")
