@@ -1,0 +1,20 @@
+Date: 22/3/2026
+Time: 18:57
+Phone Number: +94771807067
+Message: This is an automated one from Gomi. he hacked your whats app. LOLLL
+--------------------
+Date: 22/3/2026
+Time: 19:2
+Phone Number: +94771807067
+Message: Heyyy
+--------------------
+Date: 22/3/2026
+Time: 19:3
+Phone Number: +94771807067
+Message: this is automated and running from a python script
+--------------------
+Date: 22/3/2026
+Time: 19:5
+Phone Number: +94771807067
+Message: python script testing
+--------------------
