@@ -1,17 +1,21 @@
 import pyttsx3
+#make sure to install pyttsx3
 
 def speak(text):
-    engine = pyttsx3.init()   # re-init every time
+    engine = pyttsx3.init()
     engine.setProperty('rate', 165)
     engine.say(text)
     engine.runAndWait()
+    
 
-# Jarvis-style interaction
-speak("Hello boss. I am your Python assistant.")
+speak("Hey Boss, Im Jarvis")
 
-user_input = input("Type your command: ")
+#lets take an input
+
+user_input = input("What do you want me to say?: ")
 
 speak(f"You said: {user_input}")
-speak("Task completed successfully.")
+speak("Task completed, Boss")
 
-#changes
+
+
