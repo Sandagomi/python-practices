@@ -5,13 +5,9 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.getenv('APIKEY')
 
-#get a APIKEY from finhub
-#its freaking FREEE
-
+# 🔍 Step 1: Search company name → symbol
 def search_company(name):
     url = "https://finnhub.io/api/v1/search"
-    
-    #this is the API endpoint we need
     
     params = {
         "q": name,
@@ -34,8 +30,7 @@ def search_company(name):
     return companies
 
 
-#now lets get the stock prices
-
+# 📈 Step 2: Get stock price
 def get_stock_price(symbol):
     url = "https://finnhub.io/api/v1/quote"
     
@@ -55,35 +50,25 @@ def get_stock_price(symbol):
         return price, change
     return None, None
 
-#lets get the user input now
 
+# 🔍 User input (company name)
 query = input("Enter company name: ")
 
 companies = search_company(query)
 
 if not companies:
     print("No companies found.")
-else:
-    print("Companies found:")
-    for idx, comp in enumerate(companies):
-        print(f"{idx + 1}. {comp['name']} ({comp['symbol']})")
+    exit()
 
-    choice = int(input("Select a company by number: ")) - 1
+# Show top 5 matches
+print("\nSelect a company:")
+for i, c in enumerate(companies[:5]):
+    print(f"{i+1}. {c['name']} ({c['symbol']})")
 
-    if 0 <= choice < len(companies):
-        symbol = companies[choice]['symbol']
-        price, change = get_stock_price(symbol)
+choice = int(input("\nEnter choice (1-5): ")) - 1
+selected = companies[choice]
 
-        if price is not None:
-            print(f"Current price of {companies[choice]['name']} ({symbol}): ${price:.2f}")
-            print(f"Change from previous close: ${change:.2f}")
-        else:
-            print("Could not fetch stock price.")
-    else:
-        print("Invalid selection.")
-
-#now lets fetch the prices
-
+# 📈 Fetch price
 price, change = get_stock_price(selected["symbol"])
 
 if price:
@@ -96,6 +81,3 @@ if price:
         print(f"Change: {round(change,2)} 🔻")
 else:
     print("Could not fetch price.")
-    
-
-    
