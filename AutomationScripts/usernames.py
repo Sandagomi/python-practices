@@ -1,8 +1,8 @@
 import requests
 import time
 
-def check_username(username):
-    url = f"https://www.instagram.com/{username}/"
+def check_username(usernamesInstagram):
+    url = f"https://www.instagram.com/{usernamesInstagram}/"
     
     response = requests.get(url)
 
@@ -12,15 +12,37 @@ def check_username(username):
         return "Taken ❌"
     else:
         return "Error ⚠️"
+    
+def check_username(usernameTiktok):
+    url1 = f"https://www.tiktok.com/{usernameTiktok}/"
+    
+    response = requests.get(url1)
 
-def bulk_check(usernames):
-    for username in usernames:
+    if response.status_code == 404:
+        return "Available ✅"
+    elif response.status_code == 200:
+        return "Taken ❌"
+    else:
+        return "Error ⚠️"
+
+def bulk_check(usernamesInstagram):
+    for username in usernamesInstagram:
+        status = check_username(username)
+        print(f"{username} → {status}")
+        time.sleep(2)  # avoid getting blocked
+        
+def bulk_check(usernameTiktok):
+    for username in usernameTiktok:
         status = check_username(username)
         print(f"{username} → {status}")
         time.sleep(2)  # avoid getting blocked
 
 # Example usernames
-usernames = input("Enter Instagram usernames (comma separated): ").split(",")
-usernames = [u.strip() for u in usernames if u.strip()]
+usernamesInstagram = input("Enter Instagram usernames (comma separated): ").split(",")
+usernamesTiktok = input("Enter TikTok usernames (comma separated): ").split(",")
 
-bulk_check(usernames)
+usernamesInstagram = [u.strip() for u in usernamesInstagram if u.strip()]
+usernamesTiktok = [u.strip() for u in usernamesTiktok if u.strip()]
+
+bulk_check(usernamesInstagram)
+bulk_check(usernamesTiktok)
