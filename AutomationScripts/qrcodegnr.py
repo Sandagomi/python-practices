@@ -1,6 +1,8 @@
+#generate QR code for the given data
+
 import qrcode
 
-data = input("Enter text or URL: ")
+data = input("Enter a link or a text: ")
 
 qr = qrcode.QRCode(
     version=1,
@@ -11,7 +13,7 @@ qr = qrcode.QRCode(
 qr.add_data(data)
 qr.make(fit=True)
 
-img = qr.make_image(fill_color="black", back_color="white")
-img.save("custom_qr.png")
+img = qr.make_image(fill='black', back_color='white')
+img.save("sample.png") #name of the img
 
-print("Custom QR Code saved!")
+print("QR code generated successfully and saved as sample.png")
