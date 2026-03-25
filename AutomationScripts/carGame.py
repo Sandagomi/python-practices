@@ -21,8 +21,8 @@ enemy_img = pygame.image.load(os.path.join(script_dir, "assests/enemy.png"))
 road_img = pygame.image.load(os.path.join(script_dir, "assests/road.png"))
 
 # Resize images
-player_img = pygame.transform.scale(player_img, (50, 80))
-enemy_img = pygame.transform.scale(enemy_img, (50, 80))
+player_img = pygame.transform.scale(player_img, (90, 80))
+enemy_img = pygame.transform.scale(enemy_img, (80, 80))
 road_img = pygame.transform.scale(road_img, (WIDTH, HEIGHT))
 
 # Player
