@@ -5,13 +5,16 @@ import os
 
 pygame.init()
 
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
+
 
 WIDTH, HEIGHT = 400, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Flappy Bird")
 
 clock = pygame.time.Clock()
+
 
 bird_img = pygame.image.load(os.path.join(script_dir, "assests/bird.png"))
 bg_img = pygame.image.load(os.path.join(script_dir, "assests/bg.png"))
@@ -25,7 +28,7 @@ pipe_img = pygame.transform.scale(pipe_img, (60, 400))
 ground_img = pygame.transform.scale(ground_img, (WIDTH, 100))
 
 
- bird_x = 80
+bird_x = 80
 bird_y = HEIGHT // 2
 velocity = 0
 gravity = 0.5
@@ -46,6 +49,7 @@ font = pygame.font.SysFont(None, 40)
 
 game_active = False
 game_over = False
+
 
 def draw_text(text, x, y):
     img = font.render(text, True, (0, 0, 0))
@@ -97,7 +101,7 @@ def reset():
 SPAWNPIPE = pygame.USEREVENT
 pygame.time.set_timer(SPAWNPIPE, 1200)
 
-unning = True
+running = True
 while running:
     clock.tick(60)
 
@@ -146,10 +150,11 @@ while running:
         draw_text("Press SPACE to Start", 70, 250)
         if game_over:
             draw_text("Game Over", 120, 300)
-    
+
+  
     screen.blit(ground_img, (0, ground_y))
-    
+
     if not game_active and score > 0:
         game_over = True
-        
+
     pygame.display.update()
