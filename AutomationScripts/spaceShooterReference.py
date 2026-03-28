@@ -4,7 +4,7 @@ import sys
 
 pygame.init()
 
-
+# Screen
 WIDTH, HEIGHT = 500, 700
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Space Shooter")
@@ -23,22 +23,22 @@ laser_img = pygame.transform.scale(laser_img, (6, 15))
 WHITE = (255, 255, 255)
 RED = (255, 50, 50)
 BLUE = (50, 150, 255)
-BLACK = (10, 10, 20)    
+BLACK = (10, 10, 20)
 
 # Player
 player = pygame.Rect(WIDTH//2 - 25, HEIGHT - 80, 50, 50)
-player_speed = 6               
+player_speed = 6
 
 # Bullets
 bullets = []
-bullet_speed = 7        
+bullet_speed = 7
 
 # Enemies
 enemies = []
 enemy_speed = 3
 
 # Particles (explosions)
-particles = []      
+particles = []
 
 # Score
 score = 0
@@ -47,6 +47,14 @@ title_font = pygame.font.SysFont(None, 72)
 
 # Game state
 game_started = False
+
+# Start button
+button_rect = pygame.Rect(WIDTH // 2 - 75, HEIGHT // 2 - 25, 150, 50)
+YELLOW = (255, 255, 0)
+
+def draw_text(text, x, y):
+    img = font.render(text, True, WHITE)
+    screen.blit(img, (x, y))
 
 def draw_title(text, x, y):
     img = title_font.render(text, True, WHITE)
@@ -59,19 +67,10 @@ def draw_start_screen():
     button_text = font.render("START", True, BLACK)
     screen.blit(button_text, (button_rect.centerx - 35, button_rect.centery - 18))
 
-# Start button
-button_rect = pygame.Rect(WIDTH // 2 - 75, HEIGHT // 2 - 25, 150, 50)
-YELLOW = (255, 255, 0)    
-
-def draw_text(text, x, y):
-    img = font.render(text, True, WHITE)
-    screen.blit(img, (x, y)) 
-    
-       
 def spawn_enemy():
     x = random.randint(20, WIDTH - 40)
-    enemies.append(pygame.Rect(x, -50, 40, 40))     
-    
+    enemies.append(pygame.Rect(x, -50, 40, 40))
+
 def create_explosion(x, y):
     for _ in range(15):
         particles.append([
@@ -79,80 +78,97 @@ def create_explosion(x, y):
             [random.uniform(-2, 2), random.uniform(-2, 2)],
             random.randint(3, 6)
         ])
-        
+
 def update_particles():
-    for particle in particles[:]:
-        particle[0][0] += particle[1][0]
-        particle[0][1] += particle[1][1]
-        particle[2] -= 0.1
-        if particle[2] <= 0:
-            particles.remove(particle)
+    for p in particles[:]:
+        p[0][0] += p[1][0]
+        p[0][1] += p[1][1]
+        p[2] -= 0.2
+        if p[2] <= 0:
+            particles.remove(p)
 
 def draw_particles():
-    for particle in particles:
-        pygame.draw.circle(screen, RED, (int(particle[0][0]), int(particle[0][1])), int(particle[2]))
-        
-SPAWN = pygame.USEREVENT + 1
-pygame.time.set_timer(SPAWN, 1500)  
+    for p in particles:
+        pygame.draw.circle(screen, RED, (int(p[0][0]), int(p[0][1])), int(p[2]))
+
+SPAWN = pygame.USEREVENT
+pygame.time.set_timer(SPAWN, 800)
 
 running = True
-while running:  
+while running:
     clock.tick(60)
     screen.fill(BLACK)
-    
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False
-        elif event.type == pygame.MOUSEBUTTONDOWN:
+            pygame.quit()
+            sys.exit()
+        
+        if event.type == pygame.MOUSEBUTTONDOWN and not game_started:
             mouse_pos = event.pos
-            if button_rect.collidepoint(mouse_pos) and not game_started:
+            if button_rect.collidepoint(mouse_pos):
                 game_started = True
-        elif event.type == SPAWN and game_started:
+
+        if event.type == SPAWN and game_started:
             spawn_enemy()
+
+        if event.type == pygame.KEYDOWN and game_started:
+            if event.key == pygame.K_SPACE:
+                bullets.append(pygame.Rect(player.centerx - 3, player.y, 6, 15))
     
     if not game_started:
         draw_start_screen()
     else:
+        # Movement
         keys = pygame.key.get_pressed()
         if keys[pygame.K_LEFT] and player.left > 0:
             player.x -= player_speed
         if keys[pygame.K_RIGHT] and player.right < WIDTH:
             player.x += player_speed
-        if keys[pygame.K_SPACE]:
-            if len(bullets) < 5:  # Limit number of bullets on screen
-                bullets.append(pygame.Rect(player.centerx - 3, player.top - 10, 6, 15))
-        
+
+        # Bullets
         for bullet in bullets[:]:
             bullet.y -= bullet_speed
             if bullet.bottom < 0:
                 bullets.remove(bullet)
-        
+
+        # Enemies
         for enemy in enemies[:]:
             enemy.y += enemy_speed
-            if enemy.top > HEIGHT:
-                enemies.remove(enemy)
-            
+
+            # Collision
             for bullet in bullets[:]:
                 if enemy.colliderect(bullet):
                     create_explosion(enemy.centerx, enemy.centery)
-                    score += 1
                     enemies.remove(enemy)
                     bullets.remove(bullet)
+                    score += 1
                     break
-        
-        # Draw everything
-        screen.blit(player_img, player.topleft)
-        
+
+            if enemy.top > HEIGHT:
+                enemies.remove(enemy)
+
+            if enemy.colliderect(player):
+                print("GAME OVER")
+                pygame.quit()
+                sys.exit()
+
+        # Draw player
+        screen.blit(player_img, player)
+
+        # Draw bullets
         for bullet in bullets:
-            screen.blit(laser_img, bullet.topleft)
-        
+            screen.blit(laser_img, bullet)
+
+        # Draw enemies
         for enemy in enemies:
-            screen.blit(enemy_img, enemy.topleft)
-        
-        draw_particles()
+            screen.blit(enemy_img, enemy)
+
+        # Particles
         update_particles()
-        
-        #score
+        draw_particles()
+
+        # Score
         draw_text(f"Score: {score}", 10, 10)
-    
+
     pygame.display.update()
