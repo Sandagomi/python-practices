@@ -21,7 +21,7 @@ p1_img = pygame.transform.scale(p1_img, (80, 120))
 p2_img = pygame.transform.scale(p2_img, (80, 120))
 slash_img = pygame.transform.scale(slash_img, (100, 100))
 
-# Sounds (optional - commented out if files don't exist)
+
 # hit_sound = pygame.mixer.Sound("AutomationScripts/assests/hit.wav")
 # swing_sound = pygame.mixer.Sound("AutomationScripts/assests/swing.wav")
 
