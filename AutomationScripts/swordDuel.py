@@ -22,9 +22,6 @@ p2_img = pygame.transform.scale(p2_img, (80, 120))
 slash_img = pygame.transform.scale(slash_img, (100, 100))
 
 
-# hit_sound = pygame.mixer.Sound("AutomationScripts/assests/hit.wav")
-# swing_sound = pygame.mixer.Sound("AutomationScripts/assests/swing.wav")
-
 # Players
 player1 = pygame.Rect(150, 300, 80, 120)
 player2 = pygame.Rect(650, 300, 80, 120)
