@@ -5,7 +5,7 @@ import random
 pygame.init()
 pygame.mixer.init()
 
-# Screen
+
 WIDTH, HEIGHT = 900, 500
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Sword Duel PRO")
