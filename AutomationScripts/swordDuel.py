@@ -11,7 +11,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Sword Duel PRO")
 
 clock = pygame.time.Clock()
-
+#impact
 # Load images
 p1_img = pygame.image.load("AutomationScripts/assests/player1.png")
 p2_img = pygame.image.load("AutomationScripts/assests/player2.png")
