@@ -3,21 +3,16 @@ import subprocess
 from datetime import datetime, timedelta
 import random
 
-REPO_PATH = "github-fill"
-FILE_NAME = "data.txt"
+# Work in the main repository (parent directory)
+REPO_PATH = "."
+FILE_NAME = "contribution_data.txt"
 
-# Create repo if not exists
-if not os.path.exists(REPO_PATH):
-    os.makedirs(REPO_PATH)
-    os.chdir(REPO_PATH)
-    subprocess.run(["git", "init"])
-else:
-    os.chdir(REPO_PATH)
+# Start date - May 25 to November 25 (184 days)
+start_date = datetime(2025, 5, 25)
+end_date = datetime(2025, 11, 25)
+days_diff = (end_date - start_date).days
 
-# Start date (e.g., last 90 days)
-start_date = datetime.now() - timedelta(days=90)
-
-for i in range(90):
+for i in range(days_diff + 1):
     current_date = start_date + timedelta(days=i)
 
     # Random number of commits per day
@@ -37,7 +32,6 @@ for i in range(90):
 
         subprocess.run(["git", "commit", "-m", f"Commit for {date_str}"], env=env)
 
-# Add remote and push
-subprocess.run(["git", "remote", "add", "origin", "https://github.com/Sandagomi/python-practices.git"])
-subprocess.run(["git", "branch", "-M", "main"])
-subprocess.run(["git", "push", "-u", "origin", "main"])
+
+print("Commits created successfully! Now pushing to GitHub...")
+subprocess.run(["git", "push"])
