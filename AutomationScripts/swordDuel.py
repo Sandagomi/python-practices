@@ -13,10 +13,11 @@ pygame.display.set_caption("Sword Duel PRO")
 clock = pygame.time.Clock()
 #impact
 # Load images
+
 p1_img = pygame.image.load("AutomationScripts/assests/player1.png")
 p2_img = pygame.image.load("AutomationScripts/assests/player2.png")
 slash_img = pygame.image.load("AutomationScripts/assests/player.png")
-
+# Load sounds
 p1_img = pygame.transform.scale(p1_img, (80, 120))
 p2_img = pygame.transform.scale(p2_img, (80, 120))
 slash_img = pygame.transform.scale(slash_img, (100, 100))
