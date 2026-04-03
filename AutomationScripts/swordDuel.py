@@ -13,6 +13,7 @@ pygame.display.set_caption("Sword Duel PRO")
 clock = pygame.time.Clock()
 #impact
 # Load images
+#images from https://www.pinterest.com/pin/328441913737644/
 
 p1_img = pygame.image.load("AutomationScripts/assests/player1.png")
 p2_img = pygame.image.load("AutomationScripts/assests/player2.png")
