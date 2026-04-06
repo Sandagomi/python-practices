@@ -6,7 +6,7 @@ import os
 pygame.init()
 #initialize pygame and set up the game window, load images, and define game variables.
 
-
+#somestuff
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 
