@@ -10,7 +10,6 @@ pygame.init()
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 #initialise
-#
 WIDTH, HEIGHT = 400, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Car Dodging Game")
