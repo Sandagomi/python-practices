@@ -93,6 +93,8 @@ while running:
             
         road_y1 += road_speed
         road_y2 += road_speed
+        
+        #road speed adjustment
 
         if road_y1 >= HEIGHT:
             road_y1 = -HEIGHT
