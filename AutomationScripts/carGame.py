@@ -91,6 +91,8 @@ while running:
         if player_rect.colliderect(enemy_rect):
             game_over = True
             
+        #road movement
+            
         road_y1 += road_speed
         road_y2 += road_speed
         
