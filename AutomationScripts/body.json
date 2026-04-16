@@ -1,0 +1,50 @@
+{
+  "order_id": "12323453",
+  "store_id": "28",
+  "type_order": "DELIVERY",
+  "order_time": "2026-04-16 12:30:00",
+  "estimated_pickup_time": "2026-04-16 12:30:00",
+  "currency": "EUR",
+  "delivery_fee": 0,
+  "courier": {
+    "name": "Flash",
+    "phone_number": "0776718234757",
+    "license_plate": "AA-00-AA"
+  },
+  "customer": {
+    "name": "John Doe",
+    "phone": "0771234567",
+    "nif": "123456789",
+    "email": "john@test.com"
+  },
+  "products": [
+    {
+      "quantity": 1,
+      "price": 1000,
+      "discount": 0,
+      "name": "PRODUT_NAME",
+      "id": "pd1",
+      "obs": "",
+      "attributes": [
+        {
+          "quantity": 1,
+          "id": "at1",
+          "name": "ATRIBUTES NAME",
+          "price": 300,
+          "discount": 0
+        }
+      ]
+    }
+  ],
+  "delivery_address": {
+    "label": "ENDEREÇO DA MORADA",
+    "latitude": "0",
+    "longitude": "0"
+  },
+  "pick_up_code": {
+    "code": "000"
+  },
+  "is_picked_up_by_customer": false,
+  "discounted_products_total": 0,
+  "total_customer_to_pay": 1300
+}
