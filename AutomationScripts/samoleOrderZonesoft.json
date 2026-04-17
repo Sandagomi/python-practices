@@ -1,0 +1,109 @@
+{
+    "orderInternalId": "1362279655241424896",
+    "orderExternalId": "CI5MW",
+    "adjustable": false,
+    "fulfillmentType": "DELIVERY_BY_AGGREGATOR",
+    "category": "FOOD",
+    "type": "DELIVERY_BY_FOOD_AGGREGATOR",
+    "source": {
+        "sourceId": "test-order-application",
+        "uniqueOrderId": "69e1b34b3772b20dff21ff01",
+        "integration": "test-order-application",
+        "name": "test-order-application",
+        "displayName": "Grubtech Test",
+        "createdAt": "2026-03-27T04:52:38.634Z"
+    },
+    "menuCardId": "63f37fd80c738a64d0f8a465",
+    "cityId": null,
+    "kitchenId": "63f36673993b7642fec36e96",
+    "foodAggregatorId": "test-order-application",
+    "partnerId": "63ec815e2738a13eace10b94",
+    "restaurantId": "63f36446993b7642fec36e95",
+    "price": 8500,
+    "comment": "",
+    "instructions": null,
+    "menuDetails": [
+        {
+            "externalId": "63f37eaed40846063f905cd9",
+            "internalId": "63f37eaed40846063f905cd9",
+            "qty": 1,
+            "instructions": null,
+            "extraDetails": null,
+            "price": {
+                "taxExclusiveUnitPrice": null,
+                "unitPrice": 8500,
+                "grossAmount": null,
+                "discountAmount": 0,
+                "taxExclusiveDiscountAmount": null,
+                "netAmount": null,
+                "taxAmount": 404.7619,
+                "totalPrice": 8500,
+                "currencyCode": "LKR",
+                "discountCode": null
+            },
+            "taxes": null
+        }
+    ],
+    "packagingDetails": [],
+    "customerDetails": {
+        "customerName": "",
+        "mobileNumber": "",
+        "emailAddress": null
+    },
+    "deliveryDetails": {
+        "deliveryAddress": "",
+        "latitude": "",
+        "longitude": "",
+        "isDelivery": false,
+        "price": {
+            "unitPrice": 0,
+            "discountAmount": 0,
+            "taxAmount": 0,
+            "totalPrice": 0,
+            "currencyCode": null
+        }
+    },
+    "paymentDetails": {
+        "paymentToken": null,
+        "paymentCurrency": "LKR",
+        "paymentMerchantRef": null,
+        "paymentStatus": "PREPAID",
+        "paymentMethod": "CARD",
+        "customerIP": null,
+        "price": {
+            "unitPrice": 8500,
+            "taxExclusiveUnitPrice": 8095.2381,
+            "grossAmount": 8500,
+            "discountAmount": 0,
+            "taxExclusiveDiscountAmount": 0,
+            "netAmount": 8095.2381,
+            "taxAmount": 404.7619,
+            "totalPrice": 8500,
+            "currencyCode": "LKR",
+            "discountCode": ""
+        },
+        "paymentSettlements": [
+            {
+                "method": "CARD",
+                "amount": 8500,
+                "notes": null
+            }
+        ],
+        "loyaltyPoints": null,
+        "charges": []
+    },
+    "orderTaxes": [
+        {
+            "id": "63ee176e2738a13eace10c01",
+            "name": "Vat",
+            "rate": 5,
+            "taxableAmount": 8095.2381,
+            "amount": 404.7619
+        }
+    ],
+    "createdTime": "1776399179766",
+    "businessDate": "2026-04-16",
+    "scheduledOrder": null,
+    "closed": true
+}
+]

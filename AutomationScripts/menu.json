@@ -1,0 +1,3058 @@
+{
+    "families": [
+        {
+            "name": "CABELEIREIRO",
+            "subfamilies": [
+                {
+                    "name": "CABELEIREIRO",
+                    "products": [
+                        "530",
+                        "533",
+                        "536",
+                        "540",
+                        "523",
+                        "534"
+                    ]
+                },
+                {
+                    "name": "CABELEIREIRO",
+                    "products": [
+                        "611",
+                        "590",
+                        "607",
+                        "594",
+                        "598",
+                        "610",
+                        "599",
+                        "585",
+                        "589",
+                        "578",
+                        "604",
+                        "596",
+                        "586",
+                        "535",
+                        "579",
+                        "606",
+                        "588",
+                        "601",
+                        "501",
+                        "608",
+                        "502",
+                        "583",
+                        "605",
+                        "600",
+                        "609",
+                        "500",
+                        "541",
+                        "587",
+                        "506",
+                        "597",
+                        "592",
+                        "595",
+                        "499"
+                    ]
+                },
+                {
+                    "name": "CORPO",
+                    "products": [
+                        "591"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "FRUTARIAS",
+            "subfamilies": [
+                {
+                    "name": "LEGUMES",
+                    "products": [
+                        "42",
+                        "43",
+                        "44"
+                    ]
+                },
+                {
+                    "name": "FRUTA",
+                    "products": [
+                        "5",
+                        "6",
+                        "7",
+                        "8",
+                        "9",
+                        "10"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "PIZZARIA",
+            "subfamilies": [
+                {
+                    "name": "EXTRAS",
+                    "products": [
+                        "405"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CAFETARIA",
+            "subfamilies": [
+                {
+                    "name": "SUMOS/REFRIGERANTES",
+                    "products": [
+                        "145"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "RESTAURAÇÃO",
+            "subfamilies": [
+                {
+                    "name": "RESTAURAÇÃO",
+                    "products": [
+                        "417"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GTTestFamily0001",
+            "subfamilies": [
+                {
+                    "name": "GTTestSubFamily0001",
+                    "products": [
+                        "504"
+                    ]
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": "530",
+            "name": "Bag of peanuts",
+            "price": 12300,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "611",
+            "name": "Beef",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "590",
+            "name": "Beef Hot Dog",
+            "price": 1200,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "533",
+            "name": "Chedder cheese",
+            "price": 1200,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "607",
+            "name": "Cheese",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "594",
+            "name": "Cheese Burger",
+            "price": 500,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "594_3",
+                "594_2",
+                "594_1"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "598",
+            "name": "Cheese Submarine",
+            "price": 1000,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "598_3",
+                "598_1",
+                "598_2"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "610",
+            "name": "Chicken",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "599",
+            "name": "Chicken Bucket",
+            "price": 1000,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "599_3",
+                "599_2",
+                "599_1"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "585",
+            "name": "Chicken burger",
+            "price": 1200,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "585_2",
+                "585_1"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "589",
+            "name": "Chicken Hot Dog - With Source edit for location 2",
+            "price": 1100,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/909549115f7c4c75df87877371942ac5.jpeg",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "578",
+            "name": "Chicken Pizza",
+            "price": 10000,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "578_1",
+                "578_3"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "604",
+            "name": "Chili paste",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "596",
+            "name": "Chilli Sauce",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "586",
+            "name": "Coca Cola Zero - edited",
+            "price": 2000,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "42",
+            "name": "COUVE FLÔR PORT.CAT.II (KG)",
+            "price": 160,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/e9d70073ad103dd2d346265f82776dac.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "43",
+            "name": "COUVE ROXA CAT.II (KG)",
+            "price": 152,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/f5c1b60f81917d0f852127db9ae8f644.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "535",
+            "name": "Cuban Sandwich",
+            "price": 3200,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/2935ceaa732fa8e6096e84c720223a58.jpeg",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "535_1"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "405",
+            "name": "Extra Quejo",
+            "price": 100,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "145",
+            "name": "Fanta",
+            "price": 100,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/dc7745d1aa7c4ce3d033087565c78428.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "579",
+            "name": "Fanta",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "44",
+            "name": "FEIJÃO VERDE PORT.CAT.II (KG)",
+            "price": 330,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/5f1702a7325935b4035467dc2eecf233.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "606",
+            "name": "Ginger",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "536",
+            "name": "Ham sandwich",
+            "price": 2400,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/2ff9ee0d427203b4f02ff6e94c992374.jpeg",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "591",
+            "name": "Home Dog",
+            "price": 1400,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "588",
+            "name": "Home Made Beef Burger - updated",
+            "price": 2100,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "588_1",
+                "588_3",
+                "588_2"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "601",
+            "name": "Hot drumlets",
+            "price": 1200,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "601_2",
+                "601_1"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "5",
+            "name": "KIWI CAT.II (KG)",
+            "price": 260,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/aea750951bd775091b52caeea6a44543.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "6",
+            "name": "LARANJA DALMAU GR. PORT.CAT.II (KG)",
+            "price": 95,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/1e0a1dc19f1338122acc6dfdbc78877f.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "7",
+            "name": "LARANJA SUMO PORT.CAT.II (KG)",
+            "price": 85,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/1e0a1dc19f1338122acc6dfdbc78877f.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "501",
+            "name": "Large",
+            "price": 100,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "501_3"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "8",
+            "name": "LIMÃO PORT CATII (KG)",
+            "price": 100,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/965197e2a7acb7a1a8a8e04781f40c37.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "540",
+            "name": "Loaded cheese burger",
+            "price": 1200,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "9",
+            "name": "MAÇÃ BRAVO ESMOLFO PORT.CAT.II",
+            "price": 220,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/ab92f18b1ef10660b3a1a083beacb52a.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "10",
+            "name": "MAÇÃ FUJI PORT.CAT.II (KG)",
+            "price": 170,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/643addf425243aa5349457dacbbebd57.png",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "608",
+            "name": "Mayonnaise",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "502",
+            "name": "Medium",
+            "price": 100,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "502_3"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "583",
+            "name": "My Item",
+            "price": 1100,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "605",
+            "name": "Onion",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "523",
+            "name": "Pizza",
+            "price": 100,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "523_1"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "600",
+            "name": "Pottato Chips_Updated",
+            "price": 1000,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "600_2",
+                "600_1"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "417",
+            "name": "saco",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "609",
+            "name": "Salt and Pepper",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "500",
+            "name": "Small",
+            "price": 1000,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "541",
+            "name": "Spicy burger",
+            "price": 1000,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "541_1"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "587",
+            "name": "Sprite Zero - edited",
+            "price": 400,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "506",
+            "name": "Submarine",
+            "price": 1000,
+            "tax_rate": "23.0000",
+            "image_url": "https://cdn1.zonesoft.org/repo/images/ec890f2c103691e9a51d8b4d718f58a0/produtos/81ecd3f84549cc90e300d8d7702d6d0c.jpeg",
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "506_2",
+                "506_1",
+                "506_3",
+                "506_4",
+                "506_5"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "597",
+            "name": "Sweet Chilli Sauce",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "592",
+            "name": "Sweet Onion",
+            "price": 100,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "592_7"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "534",
+            "name": "Swiss cheese",
+            "price": 1000,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "595",
+            "name": "Tomato Sauce",
+            "price": 0,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [],
+            "packaging": "1"
+        },
+        {
+            "id": "499",
+            "name": "Zone Soft Menu",
+            "price": 1200,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": "[{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"monday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"tuesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"wednesday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"thursday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"friday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"saturday\"},{\"enabled\":true,\"time_periods\":[{\"start_time\":\"00:00\",\"end_time\":\"23:59\"}],\"day_of_week\":\"sunday\"}]",
+            "attributes_groups": [
+                "499_1",
+                "499_2"
+            ],
+            "packaging": "1"
+        },
+        {
+            "id": "504",
+            "name": "Zonesoft product 109",
+            "price": 100,
+            "tax_rate": "23.0000",
+            "image_url": null,
+            "is_alcohol": 0,
+            "description": "",
+            "availability": null,
+            "attributes_groups": [],
+            "packaging": "1"
+        }
+    ],
+    "attribute_groups": [
+        {
+            "id": "594_3",
+            "name": "Add Sauce",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "594_3_596",
+                "594_3_597",
+                "594_3_595"
+            ]
+        },
+        {
+            "id": "594_2",
+            "name": "Add topping",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "594_2_533",
+                "594_2_534"
+            ]
+        },
+        {
+            "id": "594_1",
+            "name": "Size",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "594_1_501",
+                "594_1_502",
+                "594_1_500"
+            ]
+        },
+        {
+            "id": "594_1_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "594_1_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "598_3",
+            "name": "Add Sauce",
+            "min": "0",
+            "max": "1",
+            "attributes": [
+                "598_3_596",
+                "598_3_597",
+                "598_3_595"
+            ]
+        },
+        {
+            "id": "598_1",
+            "name": "Addons",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "598_1_611",
+                "598_1_610"
+            ]
+        },
+        {
+            "id": "598_2",
+            "name": "Size",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "598_2_501",
+                "598_2_502",
+                "598_2_500"
+            ]
+        },
+        {
+            "id": "598_2_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "598_2_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "599_3",
+            "name": "Add Sauce",
+            "min": "0",
+            "max": "1",
+            "attributes": [
+                "599_3_596",
+                "599_3_597",
+                "599_3_595"
+            ]
+        },
+        {
+            "id": "599_2",
+            "name": "Add topping",
+            "min": "0",
+            "max": "1",
+            "attributes": [
+                "599_2_607",
+                "599_2_605"
+            ]
+        },
+        {
+            "id": "599_1",
+            "name": "Size",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "599_1_501",
+                "599_1_502",
+                "599_1_500"
+            ]
+        },
+        {
+            "id": "599_1_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "599_1_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "585_2",
+            "name": "Add topping",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "585_2_534"
+            ]
+        },
+        {
+            "id": "585_1",
+            "name": "Size",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "585_1_501",
+                "585_1_502"
+            ]
+        },
+        {
+            "id": "585_1_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "585_1_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "578_1",
+            "name": "Select your size",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "578_1_501",
+                "578_1_502",
+                "578_1_500"
+            ]
+        },
+        {
+            "id": "578_3",
+            "name": "Test",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "578_3_502"
+            ]
+        },
+        {
+            "id": "578_1_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "578_1_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "578_3_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "535_1",
+            "name": "new MG with 1 modifier update",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "535_1_501",
+                "535_1_500"
+            ]
+        },
+        {
+            "id": "535_1_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "588_1",
+            "name": "Add Source - updated",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "588_1_592",
+                "588_1_53"
+            ]
+        },
+        {
+            "id": "588_3",
+            "name": "Extra",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "588_3_592",
+                "588_3_534"
+            ]
+        },
+        {
+            "id": "588_2",
+            "name": "Size - updated",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "588_2_501",
+                "588_2_502",
+                "588_2_500"
+            ]
+        },
+        {
+            "id": "588_1_592_7_0",
+            "name": "GC 3.0 MG",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_592_16_7",
+                "OBS_592_17_7"
+            ]
+        },
+        {
+            "id": "588_3_592_7_0",
+            "name": "GC 3.0 MG",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_592_16_7",
+                "OBS_592_17_7"
+            ]
+        },
+        {
+            "id": "588_2_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "588_2_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "601_2",
+            "name": "Extra topping",
+            "min": "0",
+            "max": "1",
+            "attributes": [
+                "601_2_608",
+                "601_2_609"
+            ]
+        },
+        {
+            "id": "601_1",
+            "name": "Size",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "601_1_501",
+                "601_1_502",
+                "601_1_500"
+            ]
+        },
+        {
+            "id": "601_1_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "601_1_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "501_3",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "502_3",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "523_1",
+            "name": "Size",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "523_1_502"
+            ]
+        },
+        {
+            "id": "523_1_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "600_2",
+            "name": "Add topping",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "600_2_604",
+                "600_2_606"
+            ]
+        },
+        {
+            "id": "600_1",
+            "name": "Size",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "600_1_501",
+                "600_1_502"
+            ]
+        },
+        {
+            "id": "600_1_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "600_1_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "541_1",
+            "name": "updatedchanged",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "541_1_501",
+                "541_1_502",
+                "541_1_500"
+            ]
+        },
+        {
+            "id": "541_1_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "541_1_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "506_2",
+            "name": "Drinks",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "506_2_141",
+                "506_2_145"
+            ]
+        },
+        {
+            "id": "506_1",
+            "name": "Size",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "506_1_501",
+                "506_1_502",
+                "506_1_500"
+            ]
+        },
+        {
+            "id": "506_3",
+            "name": "Test",
+            "min": "0",
+            "max": "1",
+            "attributes": [
+                "506_3_501",
+                "506_3_502"
+            ]
+        },
+        {
+            "id": "506_4",
+            "name": "TestDJ",
+            "min": "0",
+            "max": "1",
+            "attributes": [
+                "506_4_501",
+                "506_4_502"
+            ]
+        },
+        {
+            "id": "506_5",
+            "name": "TestDJ2",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "506_5_502"
+            ]
+        },
+        {
+            "id": "506_2_141_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_141_3_3",
+                "OBS_141_5_3",
+                "OBS_141_6_3"
+            ]
+        },
+        {
+            "id": "506_1_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "506_1_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "506_3_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "506_3_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "506_4_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "506_4_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "506_5_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        },
+        {
+            "id": "592_7",
+            "name": "GC 3.0 MG",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_592_16_7",
+                "OBS_592_17_7"
+            ]
+        },
+        {
+            "id": "499_1",
+            "name": "Drinks",
+            "min": "1",
+            "max": "1",
+            "attributes": [
+                "499_1_141",
+                "499_1_145",
+                "499_1_579"
+            ]
+        },
+        {
+            "id": "499_2",
+            "name": "Size edited",
+            "min": "0",
+            "max": "1",
+            "attributes": [
+                "499_2_145",
+                "499_2_501",
+                "499_2_502",
+                "499_2_500"
+            ]
+        },
+        {
+            "id": "499_1_141_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_141_3_3",
+                "OBS_141_5_3",
+                "OBS_141_6_3"
+            ]
+        },
+        {
+            "id": "499_2_501_3_0",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 0,
+            "attributes": [
+                "OBS_501_3_3",
+                "OBS_501_5_3",
+                "OBS_501_6_3"
+            ]
+        },
+        {
+            "id": "499_2_502_3_1",
+            "name": "GT Test Option Group 001",
+            "min": 0,
+            "max": 1,
+            "attributes": [
+                "OBS_502_3_3",
+                "OBS_502_5_3",
+                "OBS_502_6_3"
+            ]
+        }
+    ],
+    "attributes": [
+        {
+            "id": "594_3_596",
+            "name": "Chilli Sauce",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "594_3_597",
+            "name": "Sweet Chilli Sauce",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "594_3_595",
+            "name": "Tomato Sauce",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "594_2_533",
+            "name": "Chedder cheese",
+            "selected_by_default": "false",
+            "price_impact": "2.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "594_2_534",
+            "name": "Swiss cheese",
+            "selected_by_default": "false",
+            "price_impact": "2.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "594_1_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "2.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "594_1_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "594_1_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "594_1_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "594_1_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "598_3_596",
+            "name": "Chilli Sauce",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "598_3_597",
+            "name": "Sweet Chilli Sauce",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "598_3_595",
+            "name": "Tomato Sauce",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "598_1_611",
+            "name": "Beef",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "598_1_610",
+            "name": "Chicken",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "598_2_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "598_2_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "598_2_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "598_2_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "598_2_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "599_3_596",
+            "name": "Chilli Sauce",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "599_3_597",
+            "name": "Sweet Chilli Sauce",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "599_3_595",
+            "name": "Tomato Sauce",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "599_2_607",
+            "name": "Cheese",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "599_2_605",
+            "name": "Onion",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "599_1_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "2.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "599_1_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "599_1_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "599_1_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "599_1_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "585_2_534",
+            "name": "Swiss cheese",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "585_1_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "585_1_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "585_1_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "585_1_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "578_1_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "578_1_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "578_1_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "578_1_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "578_1_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "578_3_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "578_3_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "535_1_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "535_1_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "535_1_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "588_1_592",
+            "name": "Sweet Onion",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "588_1_592_7_0"
+            ]
+        },
+        {
+            "id": "OBS_592_16_7",
+            "name": "M1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_592_17_7",
+            "name": "M2",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "588_1_53",
+            "name": "TOMATE PORT.CAT.II",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "588_3_592",
+            "name": "Sweet Onion",
+            "selected_by_default": "false",
+            "price_impact": "2.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "588_3_592_7_0"
+            ]
+        },
+        {
+            "id": "OBS_592_16_7",
+            "name": "M1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_592_17_7",
+            "name": "M2",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "588_3_534",
+            "name": "Swiss cheese",
+            "selected_by_default": "false",
+            "price_impact": "2.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "588_2_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "588_2_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "588_2_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "588_2_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "588_2_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "601_2_608",
+            "name": "Mayonnaise",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "601_2_609",
+            "name": "Salt and Pepper",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "601_1_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "601_1_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "601_1_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "601_1_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "601_1_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "523_1_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "523_1_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "600_2_604",
+            "name": "Chili paste",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "600_2_606",
+            "name": "Ginger",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [],
+            "packaging": "0"
+        },
+        {
+            "id": "600_1_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "600_1_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "600_1_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "600_1_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "541_1_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "541_1_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "541_1_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "541_1_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "541_1_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "506_2_141",
+            "name": "Coca Cola",
+            "selected_by_default": "false",
+            "price_impact": "2.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "506_2_141_3_0"
+            ]
+        },
+        {
+            "id": "OBS_141_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_141_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_141_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "506_2_145",
+            "name": "Fanta",
+            "selected_by_default": "true",
+            "price_impact": "3.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "506_1_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "506_1_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "506_1_502",
+            "name": "Medium",
+            "selected_by_default": "true",
+            "price_impact": "1.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "506_1_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "506_1_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "2.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "506_3_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "506_3_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "506_3_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "506_3_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "506_4_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "506_4_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "506_4_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "506_4_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "506_5_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "506_5_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_592_16_7",
+            "name": "M1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_592_17_7",
+            "name": "M2",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "499_1_141",
+            "name": "Coca Cola",
+            "selected_by_default": "false",
+            "price_impact": "1.50",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "499_1_141_3_0"
+            ]
+        },
+        {
+            "id": "OBS_141_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_141_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_141_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "499_1_145",
+            "name": "Fanta",
+            "selected_by_default": "false",
+            "price_impact": "2.50",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "499_1_579",
+            "name": "Fanta",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "499_2_145",
+            "name": "Fanta",
+            "selected_by_default": "false",
+            "price_impact": "0.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        },
+        {
+            "id": "499_2_501",
+            "name": "Large",
+            "selected_by_default": "false",
+            "price_impact": "8.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "499_2_501_3_0"
+            ]
+        },
+        {
+            "id": "OBS_501_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_501_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "499_2_502",
+            "name": "Medium",
+            "selected_by_default": "false",
+            "price_impact": "12.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": [
+                "499_2_502_3_1"
+            ]
+        },
+        {
+            "id": "OBS_502_3_3",
+            "name": "GT Test Option 001",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_5_3",
+            "name": "Extras",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "OBS_502_6_3",
+            "name": "Size1",
+            "selected_by_default": "false",
+            "price_impact": 0,
+            "tax_rate": 0,
+            "attribute_groups": []
+        },
+        {
+            "id": "499_2_500",
+            "name": "Small",
+            "selected_by_default": "false",
+            "price_impact": "6.00",
+            "tax_rate": "23.0000",
+            "attribute_groups": []
+        }
+    ],
+    "packagings": [
+        {
+            "id": "1",
+            "reference_name": "ABACAXI DELMONTE CAT.II (KG)",
+            "price": 180
+        },
+        {
+            "id": "0",
+            "reference_name": "Consumo Minimo",
+            "price": 0
+        }
+    ]
+}
