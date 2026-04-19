@@ -17,7 +17,6 @@ while True:
         case "delete":
             todo = int(input("Enter the index of the item to delete:  "))
             todo = todo - 1
-            
             todos.pop(todo)
             
         case "update":

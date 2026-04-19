@@ -12,54 +12,17 @@
       "quantity": 2,
       "price": 2400,
       "discount": 0,
-      "packaging": {
-        "id": "1",
-        "reference_name": "ABACAXIDELMONTECAT.II(KG)",
-        "price": 180
-      }
+      "packaging": null
     },
-    {
-      "id": "535",
-      "name": "Cuban Sandwich",
-      "quantity": 1,
-      "price": 2400,
-      "discount": 0,
-      "packaging": {
-        "id": "1",
-        "reference_name": "ABACAXIDELMONTECAT.II(KG)",
-        "price": 180
-      },
-      "attributes": [
-        {
-          "id": "611",
-          "name": "Beef",
-          "quantity": 1,
-          "price": 0,
-          "discount": 0,
-          "packaging": null
-        },
-        {
-          "id": "607",
-          "name": "Cheese",
-          "quantity": 1,
-          "price": 0,
-          "discount": 0
-        }
-      ]
-    }
-            
-
-      
-    
 
   ],
   "obs": "",
   "orderIsAlreadyPaid": true,
-  "order_id": "1362275157647302679",
+  "order_id": "1362275157647302680",
   "store_id": "ED27682E669E431D7B95354AB6F29580-28",
   "type_order": "DELIVERY",
-  "order_time": "2026-04-1813:55:07",
-  "estimated_pickup_time": "2026-04-1813:55:07",
+  "order_time": "2026-04-1813:30:07",
+  "estimated_pickup_time": "2026-04-1813:30:07",
   "payment_method": "CARD",
   "delivery_fee": 0,
   "payment_type": 4,
