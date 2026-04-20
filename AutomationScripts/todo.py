@@ -11,8 +11,9 @@ while True:
             todos.append(todo)
             
         case "view":
-            for index, item in enumerate(todos):
-                print(index, item)
+            for index, item in enumerate(todos): 
+                row = f"{index + 1} - {item}" 
+                print(row)
         
         case "delete":
             todo = int(input("Enter the index of the item to delete:  "))
