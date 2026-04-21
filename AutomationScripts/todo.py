@@ -7,10 +7,11 @@ while True:
     match action:
         
         case "add":
-            todo = input("Enter the item: ")
+            todo = input("Enter the item: ") + "\n"
             todos.append(todo)
-            file = open("todos.txt", "w",  encoding="utf-8")
+            file = open("todos.txt", "w")
             file.writelines(todos)
+           
             
         case "view":
             for index, item in enumerate(todos): 
