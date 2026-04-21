@@ -9,6 +9,8 @@ while True:
         case "add":
             todo = input("Enter the item: ")
             todos.append(todo)
+            file = open("todos.txt", "w",  encoding="utf-8")
+            file.writelines(todos)
             
         case "view":
             for index, item in enumerate(todos): 
