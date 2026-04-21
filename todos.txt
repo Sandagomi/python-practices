@@ -1,2 +1,5 @@
 apple
 orange
+apple
+throw
+eagle

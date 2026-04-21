@@ -1,4 +1,3 @@
-todos = []
 
 while True:
     action = input ("Enter the action: Add, view, update, delete or exit: :")
@@ -8,6 +7,9 @@ while True:
         
         case "add":
             todo = input("Enter the item: ") + "\n"
+            file = open("todos.txt", "r")
+            todos = file.readlines()
+            
             todos.append(todo)
             file = open("todos.txt", "w")
             file.writelines(todos)
