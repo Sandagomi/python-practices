@@ -3,3 +3,6 @@ orange
 apple
 throw
 eagle
+apple
+orange
+clean
