@@ -1,0 +1,97 @@
+{
+  "username": "integration@grubtech.com", //Mandatory
+  "password": "Q2m@7WcF", //Mandatory
+  "location": "2", //Mandatory
+
+  "_created": "2026-04-21T18:30:00Z", //Mandatory
+  "_id": "19007", //Mandatory
+  "channelOrderDisplayId": "19007", //Mandatory
+
+  "status": 2, //Mandatory
+  "orderType": 1, //Mandatory
+  "orderIsAlreadyPaid": 2, //Mandatory
+
+  "note": "Leave at the door",
+  "deliveryCost": 200,
+  "discountTotal": 10,
+  "discountid": "1185",
+
+  "pickupTime": "2026-04-21T18:30:00Z",
+  "channel": "UberEats",
+  "platform": "Online",
+
+  "payment": {
+    "amount": 2500
+  },
+
+  "items": [
+        {
+            "plu": "304",
+            "name": "Burger Large",
+            "sortOrder": 0,
+            "price": 100000,
+            "quantity": 1,
+            "productType": 1,
+            "remark": "",
+            "subItems": [
+                {
+                    "plu": "173",
+                    "name": "Add Cheese",
+                    "sortOrder": 0,
+                    "price": 0,
+                    "quantity": 1,
+                    "productType": 2,
+                    "subItems": []
+                },
+                {
+                    "plu": "2028",
+                    "name": "Cheese Type",
+                    "sortOrder": 0,
+                    "price": 0,
+                    "quantity": 1,
+                    "productType": 2,
+                    "subItems": []
+                },
+                {
+                    "plu": "2021",
+                    "name": "Add Cheddar Cheese",
+                    "sortOrder": 0,
+                    "price": 0,
+                    "quantity": 1,
+                    "productType": 2,
+                    "subItems": []
+                }
+            ]
+        },
+        {
+            "plu": "6",
+            "name": "CHEESE BURGER",
+            "sortOrder": 0,
+            "price": 100000,
+            "quantity": 1,
+            "productType": 1,
+            "remark": "",
+            "subItems": []
+        }
+    ],
+
+  "customer": {
+    "name": "Gomi Accept", //Mandatory
+    "phoneNumber": "+97133333333336", //Mandatory
+    "email": "john@example.com",
+    "companyName": "Nested"
+  },
+
+  "deliveryAddress": {
+    "city": "London",
+    "street": "Baker Street",
+    "streetNumber": "221B",
+    "postalCode": "NW1",
+    "extraAddressInfo": "Near the station" //include lat long here if available || and the entire address
+  }
+}
+
+
+
+
+//"extraAddressInfo": "Order Note - TESTE GRUBTECH - NO PREPARAR :: Delivery Note - No delivery note :: Phone -  :: Address -  [Lat: , Lng: ] ",
