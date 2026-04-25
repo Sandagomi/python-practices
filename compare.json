@@ -1,0 +1,49 @@
+{
+    "username": "integration@grubtech.com",
+    "password": "Q2m@7WcF",
+    "location": "2",
+
+    "_created": "2026-04-25T13:38:07.103582Z",
+    "_id": "1364958587134394368",
+    "channelOrderDisplayId": "A5H4S",
+
+    "status": 0,
+    "orderType": 1,
+    "orderIsAlreadyPaid": 2,
+
+    "deliveryCost": 0,
+    "discountTotal": 0,
+    "discountid": "1185",
+
+    "channel": "Grubtech Test",
+    "platform": "test-order-application",
+
+    "payment": {
+        "amount": 1300
+    },
+    "items": [
+        {
+            "plu": "304",
+            "name": "Burger Large",
+            "price": 1000,
+            "quantity": 1,
+            "subItems": [
+                {
+                    "plu": "2021",
+                    "name": "Cheddar",
+                    "price": 0,
+                    "quantity": 1
+                }
+            ]
+        }
+    ],
+    "customer": {
+        "name": "Raveen - Test",
+        "phoneNumber": "0000",
+        "email": ""
+    },
+    "deliveryAddress": {
+        "extraAddressInfo": ""
+    }
+    
+}
