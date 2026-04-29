@@ -23,12 +23,18 @@ while True:
         
         case "delete":
             todo = int(input("Enter the index of the item to delete:  "))
+            with open("todos.txt", "r") as file:
+                todos = file.readlines()
             todo = todo - 1
-            
+            todo_to_delete = todos[todo].strip("\n")
             todos.pop(todo)
             
             with open("todos.txt", "w") as file:
                 file.writelines(todos)
+            
+            message = f"{todo_to_delete} was deleted from the list"
+            print(message)
+           
             
         case "update":
             todo = int(input("Enter the index of the item to update:  "))
