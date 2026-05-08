@@ -1,0 +1,75 @@
+{
+    "currency": "EUR",
+    "customer": {
+        "name": "Grubtech II."
+    },
+    "products": [
+        {
+            "id": "536",
+            "name": "Ham sandwich",
+            "quantity": 1,
+            "price": 300,
+            "discount": 0,
+            "attributes": [
+                {
+                    "quantity": 2,
+                    "id": "585_2_534",
+                    "name": "Swiss cheese",
+                    "price": 200,
+                    "discount": 0,
+                    "obs": "",
+                    "packaging": {
+                        "id": "1",
+                        "price": 30,
+                        "reference_name": "ABACAXI DELMONTE CAT.II (KG)"
+                    }
+                },
+                {
+                    "quantity": 1,
+                    "id": "599_1_500",
+                    "name": "Small",
+                    "price": 300,
+                    "discount": 0,
+                    "obs": ""
+                }
+            ],
+            "packaging": {
+                "id": "1",
+                "price": 20,
+                "reference_name": "ABACAXI DELMONTE CAT.II (KG)"
+            }
+        }
+    ],
+    "obs": "Order comments: Glovo pickup code: 385\nGlovo id : 0EVFR9TMD\n",
+    "orderIsAlreadyPaid": true,
+    "order_id": "1369268972389277697",
+    "store_id": "ED27682E669E431D7B95354AB6F29580-28",
+    "type_order": "DELIVERY",
+    "order_time": "2026-05-06 13:06:03",
+    "estimated_pickup_time": "2026-05-06 13:16:00",
+    "payment_method": "PREPAID",
+    "delivery_fee": 0,
+    "payment_type": 4,
+    "delivery_address": "",
+    "pick_up_code": "385",
+    "is_picked_up_by_customer": false,
+    "discounted_products_total": 0,
+    "total_customer_to_pay": 0,
+    "scheduled_order": 0,
+    "channel_name": "#Glovo",
+    "payment_charges": {
+        "total": 1080,
+        "tax": 49,
+        "tip": 0,
+        "sub_total": 1031,
+        "total_fee": 80,
+        "total_fee_tax": 1,
+        "bag_fee": 0,
+        "delivery_fee": 0,
+        "delivery_fee_tax": 0,
+        "small_order_fee": 0,
+        "small_order_fee_tax": 0,
+        "pick_and_pack_fee": 0,
+        "pick_and_pack_fee_tax": 0
+    }
+}
