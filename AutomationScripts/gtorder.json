@@ -1,0 +1,488 @@
+{
+  "internalId": "1369968350087663616",
+  "externalId": "0E1R1JMRS",
+  "adjustable": false,
+  "closed": true,
+  "type": "DELIVERY_BY_FOOD_AGGREGATOR",
+  "partnerId": "6630978fcb82767f0b89310d",
+  "restaurantId": "69f1b429964a3d20e72ebb6f",
+  "foodAggragetorId": "glovo-food-aggregator",
+  "menuCardId": "69f1bafe8df2b73b82633ad4",
+  "price": 25.6,
+  "comment": "Order instructions: Glovo pickup code: 339\n",
+  "instructions": "Glovo pickup code: 339",
+  "customerDetails": {
+    "customerName": "Grubtech I."
+  },
+  "deliveryDetails": {
+    "deliveryPartnerId": "glovo-food-aggregator",
+    "deliveryNote": "",
+    "deliveryOrder": false,
+    "price": {
+      "unitPrice": 0,
+      "grossAmount": 0,
+      "taxExclusiveUnitPrice": 0,
+      "discountAmount": 0,
+      "taxExclusiveDiscountAmount": 0,
+      "taxAmount": 0,
+      "netAmount": 0,
+      "totalPrice": 0
+    },
+    "pickupTime": {
+      "$date": "2026-05-08T09:35:05.000Z"
+    }
+  },
+  "menuDetails": [
+    {
+      "_id": {
+        "$oid": "69f8385101370b6ecba5efd9"
+      },
+      "internalId": "69f8383581aa61625701e43b",
+      "externalId": "585",
+      "name": "Chicken burger",
+      "qty": 2,
+      "price": {
+        "unitPrice": 4,
+        "grossAmount": 8,
+        "taxExclusiveUnitPrice": 3.80952,
+        "discountAmount": 0,
+        "taxExclusiveDiscountAmount": 0,
+        "taxAmount": 0.38095,
+        "netAmount": 7.61904,
+        "totalPrice": 8,
+        "currencyCode": "EUR"
+      },
+      "taxes": [
+        {
+          "taxId": "6633440fcb82767f0b89315f",
+          "amount": 0.38095
+        }
+      ],
+      "extraDetails": [
+        {
+          "_id": {
+            "$oid": "69f8385101370b6ecba5efda"
+          },
+          "internalId": "69f2c8f3c0c0a803eee36247",
+          "externalId": "585_2_534",
+          "recipeId": "69f2c8f3c0c0a803eee361a7",
+          "modifierId": "69f2c8f3c0c0a803eee36247",
+          "name": "Swiss cheese",
+          "qty": 2,
+          "price": {
+            "unitPrice": 2,
+            "grossAmount": 4,
+            "taxExclusiveUnitPrice": 1.90476,
+            "discountAmount": 0,
+            "taxExclusiveDiscountAmount": 0,
+            "taxAmount": 0.19048,
+            "netAmount": 3.80952,
+            "totalPrice": 4,
+            "currencyCode": "EUR"
+          },
+          "taxes": [
+            {
+              "taxId": "6633440fcb82767f0b89315f",
+              "amount": 0.19048
+            }
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "69fa072301370b6ecba60415"
+          },
+          "internalId": "69fa070881aa61625703a6ef",
+          "externalId": "599_1_500",
+          "recipeId": "69f2c8f3c0c0a803eee361a7",
+          "modifierId": "69fa070881aa61625703a6ef",
+          "name": "Small",
+          "qty": 2,
+          "price": {
+            "unitPrice": 2,
+            "grossAmount": 4,
+            "taxExclusiveUnitPrice": 1.90476,
+            "discountAmount": 0,
+            "taxExclusiveDiscountAmount": 0,
+            "taxAmount": 0.19048,
+            "netAmount": 3.80952,
+            "totalPrice": 4,
+            "currencyCode": "EUR"
+          },
+          "taxes": [
+            {
+              "taxId": "6633440fcb82767f0b89315f",
+              "amount": 0.19048
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "itemDetails": {
+    "items": [
+      {
+        "_id": {
+          "$oid": "69f8385101370b6ecba5efd9"
+        },
+        "internalId": "69f8383581aa61625701e43b",
+        "externalId": "585",
+        "allowedUpdateOperations": [],
+        "recipeId": "69f2c8f3c0c0a803eee361a7",
+        "qty": 2,
+        "price": {
+          "unitPrice": {
+            "amount": 4,
+            "currencyCode": "EUR"
+          },
+          "grossAmount": {
+            "amount": 8,
+            "currencyCode": "EUR"
+          },
+          "taxExclusiveUnitPrice": {
+            "amount": 3.80952,
+            "currencyCode": "EUR"
+          },
+          "discountAmount": {
+            "amount": 0,
+            "currencyCode": "EUR"
+          },
+          "taxExclusiveDiscountAmount": {
+            "amount": 0,
+            "currencyCode": "EUR"
+          },
+          "taxAmount": {
+            "amount": 0.38095,
+            "currencyCode": "EUR"
+          },
+          "netAmount": {
+            "amount": 7.61904,
+            "currencyCode": "EUR"
+          },
+          "totalPrice": {
+            "amount": 8,
+            "currencyCode": "EUR"
+          }
+        },
+        "taxes": [
+          {
+            "taxId": "6633440fcb82767f0b89315f",
+            "amount": 0.38095
+          }
+        ],
+        "charges": [
+          {
+            "_id": {
+              "$oid": "69d90ee5cadffa6d9a7aa1b1"
+            },
+            "type": "ENVIRONMENTAL_FEE",
+            "name": {
+              "translations": {
+                "en-US": "deposit-charge"
+              }
+            },
+            "amount": 0.4,
+            "taxExclusiveAmount": 0.4,
+            "discount": 0,
+            "tax": 0,
+            "taxes": [
+              {
+                "taxId": "69d90edcc7e2f337f103bc24",
+                "amount": 0
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "_id": {
+              "$oid": "69f8385101370b6ecba5efda"
+            },
+            "internalId": "69f2c8f3c0c0a803eee36247",
+            "externalId": "585_2_534",
+            "allowedUpdateOperations": [],
+            "recipeId": "69f2c8f3c0c0a803eee361a7",
+            "qty": 2,
+            "price": {
+              "unitPrice": {
+                "amount": 2,
+                "currencyCode": "EUR"
+              },
+              "grossAmount": {
+                "amount": 4,
+                "currencyCode": "EUR"
+              },
+              "taxExclusiveUnitPrice": {
+                "amount": 1.90476,
+                "currencyCode": "EUR"
+              },
+              "discountAmount": {
+                "amount": 0,
+                "currencyCode": "EUR"
+              },
+              "taxExclusiveDiscountAmount": {
+                "amount": 0,
+                "currencyCode": "EUR"
+              },
+              "taxAmount": {
+                "amount": 0.19048,
+                "currencyCode": "EUR"
+              },
+              "netAmount": {
+                "amount": 3.80952,
+                "currencyCode": "EUR"
+              },
+              "totalPrice": {
+                "amount": 4,
+                "currencyCode": "EUR"
+              }
+            },
+            "taxes": [
+              {
+                "taxId": "6633440fcb82767f0b89315f",
+                "amount": 0.19048
+              }
+            ],
+            "charges": [
+              {
+                "_id": {
+                  "$oid": "69f83da3b92ef51e3146062f"
+                },
+                "type": "ENVIRONMENTAL_FEE",
+                "name": {
+                  "translations": {
+                    "en-US": "deposit Charge - N"
+                  }
+                },
+                "amount": 0.6,
+                "taxExclusiveAmount": 0.58824,
+                "discount": 0,
+                "tax": 0.01176,
+                "taxes": [
+                  {
+                    "taxId": "69f966b5931d3c6b3e5a937c",
+                    "amount": 0.01176
+                  }
+                ]
+              }
+            ],
+            "modifiers": []
+          },
+          {
+            "_id": {
+              "$oid": "69fa072301370b6ecba60415"
+            },
+            "internalId": "69fa070881aa61625703a6ef",
+            "externalId": "599_1_500",
+            "allowedUpdateOperations": [],
+            "recipeId": "69f2c8f3c0c0a803eee361a7",
+            "qty": 2,
+            "price": {
+              "unitPrice": {
+                "amount": 2,
+                "currencyCode": "EUR"
+              },
+              "grossAmount": {
+                "amount": 4,
+                "currencyCode": "EUR"
+              },
+              "taxExclusiveUnitPrice": {
+                "amount": 1.90476,
+                "currencyCode": "EUR"
+              },
+              "discountAmount": {
+                "amount": 0,
+                "currencyCode": "EUR"
+              },
+              "taxExclusiveDiscountAmount": {
+                "amount": 0,
+                "currencyCode": "EUR"
+              },
+              "taxAmount": {
+                "amount": 0.19048,
+                "currencyCode": "EUR"
+              },
+              "netAmount": {
+                "amount": 3.80952,
+                "currencyCode": "EUR"
+              },
+              "totalPrice": {
+                "amount": 4,
+                "currencyCode": "EUR"
+              }
+            },
+            "taxes": [
+              {
+                "taxId": "6633440fcb82767f0b89315f",
+                "amount": 0.19048
+              }
+            ],
+            "modifiers": []
+          }
+        ]
+      }
+    ],
+    "itemInfo": {
+      "69fa072301370b6ecba60415": {
+        "_id": {
+          "$oid": "69fa072301370b6ecba60415"
+        },
+        "name": {
+          "translations": {
+            "en-US": "Small"
+          }
+        }
+      },
+      "69f8385101370b6ecba5efd9": {
+        "_id": {
+          "$oid": "69f8385101370b6ecba5efd9"
+        },
+        "name": {
+          "translations": {
+            "en-US": "Chicken burger"
+          }
+        }
+      },
+      "69f8385101370b6ecba5efda": {
+        "_id": {
+          "$oid": "69f8385101370b6ecba5efda"
+        },
+        "name": {
+          "translations": {
+            "en-US": "Swiss cheese"
+          }
+        }
+      }
+    }
+  },
+  "paymentDetails": {
+    "paymentCurrency": "EUR",
+    "paymentStatus": "PREPAID",
+    "paymentMethod": "PREPAID",
+    "priceDetails": {
+      "unitPrice": 24,
+      "grossAmount": 25.6,
+      "taxExclusiveUnitPrice": 22.85712,
+      "discountAmount": 0,
+      "taxExclusiveDiscountAmount": 0,
+      "taxAmount": 1.16638,
+      "netAmount": 24.4336,
+      "totalPrice": 25.6,
+      "currencyCode": "EUR",
+      "discountCode": ""
+    },
+    "paymentSettlements": [
+      {
+        "method": "PREPAID",
+        "amount": 25.6
+      }
+    ],
+    "charges": [
+      {
+        "type": "DELIVERY_FEE",
+        "amount": 0,
+        "taxExclusiveAmount": 0,
+        "discount": 0,
+        "tax": 0,
+        "includeInInvoice": false
+      },
+      {
+        "type": "SERVICE_FEE",
+        "amount": 0,
+        "taxExclusiveAmount": 0,
+        "discount": 0,
+        "tax": 0,
+        "includeInInvoice": false
+      },
+      {
+        "type": "ENVIRONMENTAL_FEE",
+        "name": {
+          "translations": {
+            "en-US": "deposit Charge - N"
+          }
+        },
+        "amount": 1.6,
+        "taxExclusiveAmount": 1.57648,
+        "discount": 0,
+        "tax": 0.02352,
+        "includeInInvoice": true,
+        "taxes": [
+          {
+            "taxId": "69d90edcc7e2f337f103bc24",
+            "amount": 0
+          },
+          {
+            "taxId": "69f966b5931d3c6b3e5a937c",
+            "amount": 0.02352
+          }
+        ]
+      }
+    ]
+  },
+  "orderTaxes": [
+    {
+      "_id": {
+        "$oid": "5f7ac8508088545d96024088"
+      },
+      "name": "VAT",
+      "rate": 0,
+      "taxableAmount": 0,
+      "amount": 0
+    },
+    {
+      "_id": {
+        "$oid": "69d90edcc7e2f337f103bc24"
+      },
+      "name": "0 Tax",
+      "rate": 0,
+      "taxableAmount": 0.4,
+      "amount": 0
+    },
+    {
+      "_id": {
+        "$oid": "6633440fcb82767f0b89315f"
+      },
+      "name": "5% Tax",
+      "rate": 5,
+      "taxableAmount": 22.85712,
+      "amount": 1.14287
+    },
+    {
+      "_id": {
+        "$oid": "69f966b5931d3c6b3e5a937c"
+      },
+      "name": "2 tax",
+      "rate": 2,
+      "taxableAmount": 1.17648,
+      "amount": 0.02352
+    }
+  ],
+  "status": "OrderAccepted",
+  "kitchenId": "69f1b444964a3d20e72ebb70",
+  "source": {
+    "sourceId": "glovo-food-aggregator",
+    "uniqueOrderId": "101645879310",
+    "integration": "GLOVO API",
+    "name": "Glovo",
+    "displayName": "Glovo",
+    "createdAt": {
+      "$date": "2026-05-08T09:25:01.000Z"
+    }
+  },
+  "additionalInfo": {
+    "PICKUP_CODE": "339",
+    "GLOVO_STORE_ID": "899973",
+    "ORDER_SOURCE_SUBTOTAL": 24.6
+  },
+  "businessDate": "2026-05-08",
+  "uniqueIdentifier": "101645879310_glovo-food-aggregator",
+  "createdAt": {
+    "$date": "2026-05-08T09:25:07.544Z"
+  },
+  "modifiedAt": {
+    "$date": "2026-05-08T09:25:07.544Z"
+  },
+  "delete": false,
+  "active": true,
+  "_class": "com.grubtech.platform.order.model.Order",
+  "preparedAt": "2026-05-08T09:35:07.544Z"
+}

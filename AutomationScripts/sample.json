@@ -1,0 +1,4 @@
+DELIVERY_BY_FOOD_AGGREGATOR("Delivery by food aggregator"),
+DELIVERY_BY_RESTAURANT("Delivery by restaurant"),
+DINE_IN("Dine in"),
+PICK_UP("Pick up");
