@@ -1,7 +1,7 @@
 {
     "currency": "EUR",
     "customer": {
-        "name": "Grubtech I."
+        "name": "Gomi"
     },
     "products": [
         {
@@ -42,11 +42,11 @@
     ],
     "obs": "Order comments: Glovo pickup code: 339\nGlovo id : 0E1R1JMRS\n",
     "orderIsAlreadyPaid": true,
-    "order_id": "1369968350087663616",
-    "store_id": "ED27682E669E431D7B95354AB6F29580",
+    "order_id": "1369968350087663640",
+    "store_id": "ED27682E669E431D7B95354AB6F29580-28",
     "type_order": "DELIVERY",
-    "order_time": "2026-05-08 11:25:07",
-    "estimated_pickup_time": "2026-05-08 11:35:05",
+    "order_time": "2026-05-12 23:25:07",
+    "estimated_pickup_time": "2026-05-12 23:35:05",
     "payment_method": "PREPAID",
     "delivery_fee": 0,
     "payment_type": 4,
@@ -77,3 +77,7 @@
         "pick_and_pack_fee_tax": 0
     }
 }
+
+
+APP-KEY: 1108E72B1108E72BDDDD77DD77BDBD77BD777F614F727C5D34254F727C5D3425
+APP-SECRET: 6F6965DE4E2F928CA8A5EE97CA78CC05
